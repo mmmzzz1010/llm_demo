@@ -6,11 +6,11 @@
 
 #安装步骤 点点点
 
-# 安装后启动
-#conda 安装成功后，用conda创建一个python3.11的环境：
-conda create --name agi_env python=3.11 
-#激活环境
-conda activate agi_env
-conda install -c conda-forge jupyterlab 
-#启动jupyterlab进行开发：
+# 安装后启动 \n
+#conda 安装成功后，用conda创建一个python3.11的环境：\n
+conda create --name agi_env python=3.11 \n
+#激活环境 \n
+conda activate agi_env \n
+conda install -c conda-forge jupyterlab \n 
+#启动jupyterlab进行开发：\n
 jupyter-lab .
